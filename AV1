@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ex3</title>
+
+</head>
+
+<body>
+    <div>
+        <h1>Cadastro de Clientes e Produtos</h1>
+        <ol>
+            <li>
+                Exercício de Reprodução da Página Web
+            </li>
+            <li>
+                Identifique todos os elementos HTML utilizados
+            </li>
+            <li>
+                Identifique todos os elementos CSS utilizados
+            </li>
+            <li>
+                Em seguida, reproduza de maneira de deixar igual ao exemplo analisado
+            </li>
+            <li>
+                Caso tenha o input select, crie 3 options para ele
+            </li>
+        </ol>
+    </div>
+    <br>
+        <form>
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <table border="4">
+                    <tr>
+                        <td><label for="nome">Nome:</label></td>
+                        <td><input type="text" id="nome" name="nome"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sobrenome">Sobrenome:</label></td>
+                        <td><input type="text" id="sobrenome" name="sobrenome"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail:</label></td>
+                        <td><input type="email" id="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="senha">Senha:</label></td>
+                        <td><input type="password" id="senha" name="senha"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <table border="3">
+                    <tr>
+                        <td><label for="nome">Nome:</label></td>
+                        <td><input type="text" id="nome" name="nome"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="preco">Preço:</label></td>
+                        <td><input type="text" id="preco" name="preco"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="categoria">Categoria:</label></td>
+                        <td>
+                            iPhone:<input type="checkbox" id="iphone" name="iphone">
+                            Samsung:<input type="checkbox" id="samsung" name="samsung">
+                            Xiaomi:<input type="checkbox" id="xiaomi" name="xiaomi">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="iphone.com">Iphone</a>
+                        </li>
+                        <li>
+                            <a href="samsung.com">Samsung</a>
+                        </li>
+                        <li>
+                            <a href="xiaomi.com">Xiaomi</a>
+                        </li>
+                    </ul>
+                </div>
+            </fieldset>
+        </form>
+</body>
+
+</html>
